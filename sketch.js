@@ -479,4 +479,5 @@ function jitterColor(col, amt = 15) {
 
 
 // Optional testing helper (uncomment to test without MIDI)
- function mousePressed() { spawnShape(getShapeFromIndex(floor(random(0,10)))); }
+ function mousePressed() { spawnShape(getShapeFromIndex(floor(random(0,10))));
+                         userStartAudio();}
